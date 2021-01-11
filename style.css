@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0in;
+}
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial,Helvetica,Sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /*Same as above*/
+    font:normal 16px arial,Helvetica,Sans-serif;
+    line-height: 1.6em;
+    margin:0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.box1{
+    color: #ffffff;
+    background-color: #333;
+    border-right: 5px solid red;
+    border-left: 5px red solid;
+    border-top: 5px solid red;
+    border-bottom: 5px  solid red;
+    /*Same as above*/
+    border: 5px solid red;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    /*Same as above*/
+    
+
+}
+
+.box1 h1{
+    font-family: tahoma;
+    font-weight:800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+
+}
+.box2{
+border: 3px dotted #ccc;
+padding: 20px;
+margin: 20px 0;
+}
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: square;
+    list-style: none;
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:green;
+}
+
+a:visited{
+
+}
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url(images/check.png);
+
+
+}
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+   padding-bottom: 15px;
+}
+.my-form label{
+    display:block;
+}
+.my-form input[type="text"], .my-form textarea { 
+    padding: 8px;
+    width: 100%;
+}
+.button{
+    background-color:#333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+.button:hover{
+    background: red;
+    color: #fff;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.clr{
+    clear:both;
+}
+
+.main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+.p-box{
+    
+    width: 800px;
+    height: 350px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(images/img.jpg);
+    background-position: 500px 800px;
+    background-position: center top;
+    background-repeat: no-repeat;
+   
+}
+.p-box h1{
+    color: red;
+    position: absolute;
+    margin-top: 40px;
+    top: 100px;
+    left: 200px;
+}
+.p-box h2{
+    color: red;
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+    position:fixed;
+    top: 400px;
+}
+.my-list li:first-child{
+    background-color: red;
+}
+.my-list li:last-child{
+    background-color: blue;
+}
+.my-list li:nth-child(5){
+    background-color: yellow;
+}
+.my-list li:nth-child(even){
+    background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.my-list{
+    
+}
+
+
+
+
+
+
+
+
+
